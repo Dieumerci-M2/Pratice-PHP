@@ -1,3 +1,15 @@
+
+
+<!-- LES VARIABLES -->
+
+<?php
+
+$nom = 'Md';
+$note1 = 10;
+$note2 = 20;
+echo "salut ". $nom ." vous avez eu ". ($note1+$note2)/2 . " comme moyenne\n";
+
+
 <?php
 
 // Pour comprendre bien les boucles : je me suis donner un petit exercices de dire à un élève de tapez ces notes sur le clavier et en suite tapez fin pour finir la saisir. Et après ça mon algorithme lui montreras tout ce qu'il a tapez au clavier dans un tableau. 
@@ -28,3 +40,4 @@ foreach($notes as $note){
     echo "-$note\n";
 }
 ?>
+
